@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: black;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: rgb(216, 216, 30);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      width: 320px;
+    }
+
+    .login-container h2 {
+      margin-left: -15px;
+      text-align: center;
+      margin-bottom: 25px;
+      color: #1D503A;;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+    .imagem {
+    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Espaço entre a imagem e os textos */
+    border-radius: 100%;
+
+    }
+
+    .texto1 {
+    margin: 1px 0; /* Espaçamento entre os textos */
+    font-size: 16px;
+    text-align: left;
+    }
+
+    .texto2 {
+        margin: 1px 0; /* Espaçamento entre os textos */
+        font-size: 20px;
+        text-align: left;
+        color: #1D503A;;
+        
+    }
+
+    .baner iframe {
+      background-image: url('caminho/para/sua/imagem.jpg');
+      background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+      background-repeat: no-repeat; /* Evita que a imagem se repita */
+      background-position: center; /* Centraliza a imagem no fundo */
+      
+      height: 60px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #555;
+    }
+
+    p {
+      margin-top: 2px;
+      font-size: 12px;
+      color: #555;
+      text-align: left;
+    }
+
+   
+    .menu-opcoes {
+      margin-left: -18px;
+    }
+
+    .menu{
+        display: flex;
+        gap: 15px;
+        
+    }
+
+    .menu-img {
+      
+      background-color: black;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      border:#1D503A 2px solid;
+      
+    }
+
+    .footer-text {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="../assets/logo_bus.png" alt="">
+    
+        <div class="baner">
+          <!--<iframe src="https://www.youtube.com/embed/TvnQMk_FqqU" title="Curso de Nutrição Básica I - Conceitos Iniciais" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+        </div>
+          
+           
+    
+
+    <br>
+    <form>
+      <hr>
+      <div class="container">
+        <img class="imagem" src="../assets/user.jpg" alt="foto perfil">
+        <div class="textos">
+            <p class="texto2">Leonardo S. Silva</p>
+            <P class="texto1">Motorista</P>
+        </div>
+      </div>
+      <hr>
+      </form>
+      <br>
+      <div class="menu-opcoes">
+        <nav class="menu">
+          <a href="../kmdiario.html" class="menu-img"><img src="../assets/icons8-velocidade-50.png" alt="Home"></a>
+          <a href="#../abastecimanto.html" class="menu-img"><img src="../assets/icons8-bomba-de-gasolina-48.png" alt=""></a>
+          <a href="#../perfil.html"  class="menu-img"><img src="../assets/icons8-macho-de-configurações-de-admin-48.png"></a>
+        </nav>
+        <br>
+        <a href="../index.html"><p>Criar Conta</p></a>
+      
+      
+    </div>  
+    <div class="footer-text">© 2025 NUTRIAÇÃO</div>
+  </div>
+</body>
+</html>

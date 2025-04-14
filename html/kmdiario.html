@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/kmdiario.css">
+  <title>Agendar Consulta</title>
+  
+</head>
+<body>
+  <div class="login-container">
+    <h2>KM DIÁRIO</h2>
+    <form>
+      <div class="form-group">
+        
+        <select name="local" id="local">
+          <optgroup>Lista de locais</optgroup>
+            <option value="menaldo">Menaldo</option>
+            <option value="thofilo-davila">Theófilo D'ávila</option>
+            <option value="jose-bandeira">José Bandeira</option>
+        </select>
+      </div>
+      <div class="form-group">
+        
+        <input type="date" id="dataSelecionada" placeholder="DATA..." required>
+      </div>
+      <div class="form-group">
+        <input type="number" id="kmsaida" placeholder="Km de Saída..." required>
+      </div>
+      <div class="form-group">
+        <input type="number" id="kmchegada" placeholder="Km de Chegada..." required>
+      </div>
+      <div class="form-group">
+        <input type="number" id="kmtotal" placeholder="Km de Total..." required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="placa" placeholder="Placa..." required>
+      </div>
+      <div class="form-group">
+        <input type="textbox" id="obs" placeholder="Observações..." required>
+      </div>
+
+      <a href="historico_dieta.html"><button type="submit" class="login-btn">Agendar</button></a>
+      <!--<a href="../historico_dieta.html">Histórico</a>-->
+    </form>
+    <nav class="menu">
+      
+      <a href="abastecimento.html"><img class="menu-img" src="../assets/icons8-bomba-de-gasolina-48.png" alt=""></a>
+      <a href="config.html"><img class="menu-img" src="../assets/icons8-macho-de-configurações-de-admin-48.png" alt=""></a>
+      <a href="../index.html"><img class="menu-img" src="../assets/icons8-casa-48.png" alt="Home"></a>
+    </nav>
+      
+    <div class="footer-text">© 2025 NUTRIAÇÃO</div>
+  </div>
+</body>
+</html>

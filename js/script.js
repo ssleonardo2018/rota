@@ -19,19 +19,21 @@ function validarLogin() {
         return false;
       }
     }
-const input1 = document.getElementById("input1");
-    const input2 = document.getElementById("input2");
-    const resultado = document.getElementById("resultado");
+
+
+    const kmsaida = document.getElementById("kmsaida");
+    const kmchegada = document.getElementById("kmchegada");
+    const kmtotal = document.getElementById("kmtotal");
 
     function atualizar() {
-      const valor1 = parseFloat(input1.value) || 0;
-      const valor2 = parseFloat(input2.value) || 0;
-      resultado.value = valor1 - valor2;
+      const valor1 = parseFloat(kmsaida.value) || 0;
+      const valor2 = parseFloat(kmchegada.value) || 0;
+      kmtotal.value = valor1 - valor2;
     }
 
     // Atualiza sempre que os valores mudarem
-    input1.addEventListener("input", atualizar);
-    input2.addEventListener("input", atualizar);
+    kmsaida.addEventListener("input", atualizar);
+    kmchegada.addEventListener("input", atualizar);
 
     // Atualiza no carregamento inicial
     atualizar();
